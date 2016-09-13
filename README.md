@@ -5,6 +5,6 @@
 	- mqtt data transferring.
 	
 #This stack is easy to be use for application creation that involve iot.
-#eg: refer to SampleTestIOTCore.
+eg: refer to SampleTestIOTCore.
 
-#More support IOT protocol can be add in for future enhancement. eg:alljoyn, dds, AQMP and etc.
+More support IOT protocol can be add in for future enhancement. eg:alljoyn, dds, AQMP and etc.
