@@ -1,0 +1,516 @@
+2016-04-18 15:24:04 INFO  IOTCore:22 - class SampleTestIOTCoreStart .... 
+2016-04-18 15:24:04 INFO  IOTCore:22 - for testing purpose
+2016-04-18 15:24:04 INFO  IOTCore:22 - test.mosquitto.org @@@@@@@@@@@@@@@@@@@@@@@@
+2016-04-18 15:24:04 INFO  IOTCore:22 - null @@@@@@@@@@@@@@@@@@@@@@@@
+2016-04-18 15:24:04 INFO  MQTTSubscribe:22 - MQTTSubscribe start ...
+2016-04-18 15:24:04 INFO  KhttpClient:22 - KhttpClient start ...
+2016-04-18 15:24:05 INFO  MQTTSubscribe:22 - MQTTSubscribe start ...
+2016-04-18 15:24:05 INFO  KhttpClient:22 - KhttpClient start ...
+2016-04-18 15:24:05 INFO  IOTCore:22 - registerSubscriber - Successful connected mqtt broker ...
+2016-04-18 15:24:05 INFO  IOTCore:22 - createMQTTPublisher - Successful connected mqtt broker ...
+2016-04-18 15:24:05 INFO  MQTTPublish:22 - mqttPublish start ...
+2016-04-18 15:24:05 INFO  class SampleTestIOTCore:22 - successful connected ....
+2016-04-18 15:24:05 INFO  class SampleTestIOTCore:22 - data published
+2016-04-18 15:24:05 INFO  class SampleTestIOTCore:22 - system subscribe
+2016-04-18 15:24:05 INFO  class SampleTestIOTCore:22 - start http server
+2016-04-18 15:24:05 INFO  KhttpServer:22 - server started at 1111
+2016-04-18 15:24:05 INFO  class SampleTestIOTCore:22 - idle http server
+2016-04-18 15:24:05 INFO  class SampleTestIOTCore:22 - idle http req post to server
+2016-04-18 15:24:05 INFO  IOTCore:22 - [Main thread] Shutdown hook added
+2016-04-18 15:24:05 DEBUG Handlers$RootHandler:27 - HTTP
+2016-04-18 15:24:05 DEBUG Handlers$RootHandler:27 - GET
+2016-04-18 15:24:05 INFO  Handlers$RootHandler:22 - GET request uri null/v70/device_id
+2016-04-18 15:24:05 INFO  KhttpClient:22 - http://localhost:1111/v70/device_id/v70/device_id200
+2016-04-18 15:24:05 INFO  class AgentSubscribe:22 - -------------------------------------------------
+2016-04-18 15:24:05 INFO  class AgentSubscribe:22 - | Protocol:MQTT
+2016-04-18 15:24:05 INFO  class AgentSubscribe:22 - | Topic:topic/test
+2016-04-18 15:24:05 INFO  class AgentSubscribe:22 - | Message: 2201
+2016-04-18 15:24:05 INFO  class AgentSubscribe:22 - -------------------------------------------------
+2016-04-18 15:24:05 INFO  MQTTSubscribe:22 - MQTTSubscribe - messageArrived
+2016-04-18 15:24:09 INFO  ShutdownThread:22 - [Shutdown thread] Shutting down
+2016-04-18 15:24:09 INFO  KhttpServer:22 - server stopped
+2016-04-18 15:24:09 INFO  ShutdownThread:22 - [Shutdown thread] Shutdown complete
+2016-04-18 15:26:57 INFO  IOTCore:22 - class SampleTestIOTCoreStart .... 
+2016-04-18 15:26:57 INFO  IOTCore:22 - for testing purpose
+2016-04-18 15:26:57 INFO  IOTCore:22 - test.mosquitto.org @@@@@@@@@@@@@@@@@@@@@@@@
+2016-04-18 15:26:57 INFO  ReadPropertiesConfig:22 - hello cannot find in config file
+2016-04-18 15:26:57 INFO  IOTCore:22 - null @@@@@@@@@@@@@@@@@@@@@@@@
+2016-04-18 15:26:57 INFO  MQTTSubscribe:22 - MQTTSubscribe start ...
+2016-04-18 15:26:57 INFO  KhttpClient:22 - KhttpClient start ...
+2016-04-18 15:26:58 INFO  MQTTSubscribe:22 - MQTTSubscribe start ...
+2016-04-18 15:26:58 INFO  KhttpClient:22 - KhttpClient start ...
+2016-04-18 15:26:58 INFO  IOTCore:22 - registerSubscriber - Successful connected mqtt broker ...
+2016-04-18 15:26:58 INFO  IOTCore:22 - createMQTTPublisher - Successful connected mqtt broker ...
+2016-04-18 15:26:58 INFO  MQTTPublish:22 - mqttPublish start ...
+2016-04-18 15:26:58 INFO  class SampleTestIOTCore:22 - successful connected ....
+2016-04-18 15:26:58 INFO  class SampleTestIOTCore:22 - data published
+2016-04-18 15:26:58 INFO  class SampleTestIOTCore:22 - system subscribe
+2016-04-18 15:26:58 INFO  class SampleTestIOTCore:22 - start http server
+2016-04-18 15:26:58 INFO  KhttpServer:22 - server started at 1111
+2016-04-18 15:26:58 INFO  class SampleTestIOTCore:22 - idle http server
+2016-04-18 15:26:58 INFO  class SampleTestIOTCore:22 - idle http req post to server
+2016-04-18 15:26:58 INFO  IOTCore:22 - [Main thread] Shutdown hook added
+2016-04-18 15:26:58 DEBUG Handlers$RootHandler:27 - HTTP
+2016-04-18 15:26:58 DEBUG Handlers$RootHandler:27 - GET
+2016-04-18 15:26:58 INFO  Handlers$RootHandler:22 - GET request uri null/v70/device_id
+2016-04-18 15:26:58 INFO  KhttpClient:22 - http://localhost:1111/v70/device_id/v70/device_id200
+2016-04-18 15:26:58 INFO  class AgentSubscribe:22 - -------------------------------------------------
+2016-04-18 15:26:58 INFO  class AgentSubscribe:22 - | Protocol:MQTT
+2016-04-18 15:26:58 INFO  class AgentSubscribe:22 - | Topic:topic/test
+2016-04-18 15:26:58 INFO  class AgentSubscribe:22 - | Message: 2201
+2016-04-18 15:26:58 INFO  class AgentSubscribe:22 - -------------------------------------------------
+2016-04-18 15:26:58 INFO  MQTTSubscribe:22 - MQTTSubscribe - messageArrived
+2016-04-18 15:27:36 INFO  ShutdownThread:22 - [Shutdown thread] Shutting down
+2016-04-18 15:27:36 INFO  KhttpServer:22 - server stopped
+2016-04-18 15:27:36 INFO  ShutdownThread:22 - [Shutdown thread] Shutdown complete
+2016-04-18 15:27:46 INFO  IOTCore:22 - class SampleTestIOTCoreStart .... 
+2016-04-18 15:27:46 INFO  IOTCore:22 - for testing purpose
+2016-04-18 15:27:46 INFO  IOTCore:22 - test.mosquitto.org @@@@@@@@@@@@@@@@@@@@@@@@
+2016-04-18 15:27:46 ERROR ReadPropertiesConfig:32 - hello cannot find in config file
+2016-04-18 15:27:46 INFO  IOTCore:22 - null @@@@@@@@@@@@@@@@@@@@@@@@
+2016-04-18 15:27:46 INFO  MQTTSubscribe:22 - MQTTSubscribe start ...
+2016-04-18 15:27:46 INFO  KhttpClient:22 - KhttpClient start ...
+2016-04-18 15:27:46 INFO  MQTTSubscribe:22 - MQTTSubscribe start ...
+2016-04-18 15:27:46 INFO  KhttpClient:22 - KhttpClient start ...
+2016-04-18 15:27:46 INFO  IOTCore:22 - registerSubscriber - Successful connected mqtt broker ...
+2016-04-18 15:27:46 INFO  IOTCore:22 - createMQTTPublisher - Successful connected mqtt broker ...
+2016-04-18 15:27:46 INFO  MQTTPublish:22 - mqttPublish start ...
+2016-04-18 15:27:46 INFO  class SampleTestIOTCore:22 - successful connected ....
+2016-04-18 15:27:46 INFO  class SampleTestIOTCore:22 - data published
+2016-04-18 15:27:47 INFO  class SampleTestIOTCore:22 - system subscribe
+2016-04-18 15:27:47 INFO  class SampleTestIOTCore:22 - start http server
+2016-04-18 15:27:47 INFO  KhttpServer:22 - server started at 1111
+2016-04-18 15:27:47 INFO  class SampleTestIOTCore:22 - idle http server
+2016-04-18 15:27:47 INFO  class SampleTestIOTCore:22 - idle http req post to server
+2016-04-18 15:27:47 INFO  IOTCore:22 - [Main thread] Shutdown hook added
+2016-04-18 15:27:47 DEBUG Handlers$RootHandler:27 - HTTP
+2016-04-18 15:27:47 DEBUG Handlers$RootHandler:27 - GET
+2016-04-18 15:27:47 INFO  Handlers$RootHandler:22 - GET request uri null/v70/device_id
+2016-04-18 15:27:47 INFO  KhttpClient:22 - http://localhost:1111/v70/device_id/v70/device_id200
+2016-04-18 15:27:47 INFO  class AgentSubscribe:22 - -------------------------------------------------
+2016-04-18 15:27:47 INFO  class AgentSubscribe:22 - | Protocol:MQTT
+2016-04-18 15:27:47 INFO  class AgentSubscribe:22 - | Topic:topic/test
+2016-04-18 15:27:47 INFO  class AgentSubscribe:22 - | Message: 2201
+2016-04-18 15:27:47 INFO  class AgentSubscribe:22 - -------------------------------------------------
+2016-04-18 15:27:47 INFO  MQTTSubscribe:22 - MQTTSubscribe - messageArrived
+2016-04-18 15:27:57 INFO  ShutdownThread:22 - [Shutdown thread] Shutting down
+2016-04-18 15:27:57 INFO  KhttpServer:22 - server stopped
+2016-04-18 15:27:57 INFO  ShutdownThread:22 - [Shutdown thread] Shutdown complete
+2016-04-18 15:48:59 INFO  IOTCore:22 - class SampleTestIOTCoreStart .... 
+2016-04-18 07:51:41 INFO  IOTCore:22 - for testing purpose
+2016-04-18 07:51:41 INFO  IOTCore:22 - test.mosquitto.org @@@@@@@@@@@@@@@@@@@@@@@@
+2016-04-18 07:51:41 INFO  MQTTSubscribe:22 - MQTTSubscribe start ...
+2016-04-18 07:51:41 INFO  KhttpClient:22 - KhttpClient start ...
+2016-04-18 07:51:42 INFO  MQTTSubscribe:22 - MQTTSubscribe start ...
+2016-04-18 07:51:42 INFO  KhttpClient:22 - KhttpClient start ...
+2016-04-18 07:51:42 INFO  IOTCore:22 - registerSubscriber - Successful connected mqtt broker ...
+2016-04-18 07:51:42 INFO  IOTCore:22 - createMQTTPublisher - Successful connected mqtt broker ...
+2016-04-18 07:51:42 INFO  MQTTPublish:22 - mqttPublish start ...
+2016-04-18 07:51:42 INFO  class SampleTestIOTCore:22 - successful connected ....
+2016-04-18 07:51:42 INFO  class SampleTestIOTCore:22 - data published
+2016-04-18 07:51:42 INFO  class SampleTestIOTCore:22 - system subscribe
+2016-04-18 07:51:42 INFO  class SampleTestIOTCore:22 - start http server
+2016-04-18 07:51:42 INFO  KhttpServer:22 - server started at 1111
+2016-04-18 07:51:42 INFO  class SampleTestIOTCore:22 - idle http server
+2016-04-18 07:51:42 INFO  class SampleTestIOTCore:22 - idle http req post to server
+2016-04-18 07:51:42 INFO  IOTCore:22 - [Main thread] Shutdown hook added
+2016-04-18 07:51:42 DEBUG Handlers$RootHandler:27 - HTTP
+2016-04-18 07:51:42 DEBUG Handlers$RootHandler:27 - GET
+2016-04-18 07:51:42 INFO  Handlers$RootHandler:22 - GET request uri null/v70/device_id
+2016-04-18 07:51:42 INFO  KhttpClient:22 - http://localhost:1111/v70/device_id/v70/device_id200
+2016-04-18 07:51:42 INFO  class AgentSubscribe:22 - -------------------------------------------------
+2016-04-18 07:51:42 INFO  class AgentSubscribe:22 - | Protocol:MQTT
+2016-04-18 07:51:42 INFO  class AgentSubscribe:22 - | Topic:topic/test
+2016-04-18 07:51:42 INFO  class AgentSubscribe:22 - | Message: 2201
+2016-04-18 07:51:42 INFO  class AgentSubscribe:22 - -------------------------------------------------
+2016-04-18 07:51:42 INFO  MQTTSubscribe:22 - MQTTSubscribe - messageArrived
+2016-04-18 07:51:52 INFO  ShutdownThread:22 - [Shutdown thread] Shutting down
+2016-04-18 07:51:52 INFO  KhttpServer:22 - server stopped
+2016-04-18 07:51:52 INFO  ShutdownThread:22 - [Shutdown thread] Shutdown complete
+2016-04-18 15:52:03 INFO  IOTCore:22 - for testing purpose
+2016-04-18 15:52:03 INFO  IOTCore:22 - test.mosquitto.org @@@@@@@@@@@@@@@@@@@@@@@@
+2016-04-18 15:52:03 INFO  MQTTSubscribe:22 - MQTTSubscribe start ...
+2016-04-18 15:52:03 INFO  KhttpClient:22 - KhttpClient start ...
+2016-04-18 15:52:04 INFO  MQTTSubscribe:22 - MQTTSubscribe start ...
+2016-04-18 15:52:04 INFO  KhttpClient:22 - KhttpClient start ...
+2016-04-18 15:52:04 INFO  IOTCore:22 - registerSubscriber - Successful connected mqtt broker ...
+2016-04-18 15:52:04 INFO  IOTCore:22 - createMQTTPublisher - Successful connected mqtt broker ...
+2016-04-18 15:52:04 INFO  MQTTPublish:22 - mqttPublish start ...
+2016-04-18 15:52:04 INFO  class SampleTestIOTCore:22 - successful connected ....
+2016-04-18 15:52:04 INFO  class SampleTestIOTCore:22 - data published
+2016-04-18 15:52:04 INFO  class SampleTestIOTCore:22 - system subscribe
+2016-04-18 15:52:04 INFO  class SampleTestIOTCore:22 - start http server
+2016-04-18 15:52:04 INFO  KhttpServer:22 - server started at 1111
+2016-04-18 15:52:04 INFO  class SampleTestIOTCore:22 - idle http server
+2016-04-18 15:52:04 INFO  class SampleTestIOTCore:22 - idle http req post to server
+2016-04-18 15:52:04 INFO  IOTCore:22 - [Main thread] Shutdown hook added
+2016-04-18 15:52:04 DEBUG Handlers$RootHandler:27 - HTTP
+2016-04-18 15:52:04 DEBUG Handlers$RootHandler:27 - GET
+2016-04-18 15:52:04 INFO  Handlers$RootHandler:22 - GET request uri null/v70/device_id
+2016-04-18 15:52:04 INFO  KhttpClient:22 - http://localhost:1111/v70/device_id/v70/device_id200
+2016-04-18 15:52:04 INFO  class AgentSubscribe:22 - -------------------------------------------------
+2016-04-18 15:52:04 INFO  class AgentSubscribe:22 - | Protocol:MQTT
+2016-04-18 15:52:04 INFO  class AgentSubscribe:22 - | Topic:topic/test
+2016-04-18 15:52:04 INFO  class AgentSubscribe:22 - | Message: 2201
+2016-04-18 15:52:04 INFO  class AgentSubscribe:22 - -------------------------------------------------
+2016-04-18 15:52:04 INFO  MQTTSubscribe:22 - MQTTSubscribe - messageArrived
+2016-04-18 15:52:13 INFO  ShutdownThread:22 - [Shutdown thread] Shutting down
+2016-04-18 15:52:13 INFO  KhttpServer:22 - server stopped
+2016-04-18 15:52:13 INFO  ShutdownThread:22 - [Shutdown thread] Shutdown complete
+2016-04-18 16:28:35 ERROR ReadPropertiesConfig:32 - mqtt.broker_addr cannot find in config file
+2016-04-18 16:28:35 ERROR ReadPropertiesConfig:32 - mqtt.broker_port cannot find in config file
+2016-04-18 16:28:35 INFO  IOTCore:22 - for testing purpose
+2016-04-18 16:28:35 ERROR ReadPropertiesConfig:32 - mqtt.broker_addr cannot find in config file
+2016-04-18 16:28:35 INFO  IOTCore:22 - null @@@@@@@@@@@@@@@@@@@@@@@@
+2016-04-18 16:28:35 INFO  MQTTSubscribe:22 - MQTTSubscribe start ...
+2016-04-18 16:28:35 INFO  KhttpClient:22 - KhttpClient start ...
+2016-04-18 16:57:40 ERROR ReadPropertiesConfig:37 - org.ini4j.InvalidFileFormatException: parse error (at line: 13): log_level=INFO
+2016-04-18 17:05:05 ERROR ReadPropertiesConfig:37 - org.ini4j.InvalidFileFormatException: parse error (at line: 13): log_level=INFO
+2016-04-18 17:07:09 ERROR ReadPropertiesConfig:37 - org.ini4j.InvalidFileFormatException: parse error (at line: 13): log_level=INFO
+2016-04-18 17:12:09 ERROR ReadPropertiesConfig:37 - org.ini4j.InvalidFileFormatException: parse error (at line: 13): log_level=INFO
+2016-04-18 17:12:53 ERROR ReadPropertiesConfig:37 - org.ini4j.InvalidFileFormatException: parse error (at line: 13): log_level=INFO
+2016-04-18 17:15:30 ERROR ReadPropertiesConfig:37 - org.ini4j.InvalidFileFormatException: parse error (at line: 13): log_level=INFO
+2016-04-18 17:15:30 INFO  ReadPropertiesConfig:22 - mqtt.broker_addraaaaaaaaaaaaa
+2016-04-18 17:15:30 INFO  ReadPropertiesConfig:22 - section key got dot
+2016-04-18 17:22:03 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa
+2016-04-18 17:22:03 ERROR ReadPropertiesConfig:37 - java.io.IOException: Stream Closed
+2016-04-18 17:22:03 INFO  ReadPropertiesConfig:22 - mqtt.broker_port aaaaaaaaaaaaa
+2016-04-18 17:22:03 ERROR ReadPropertiesConfig:37 - java.io.IOException: Stream Closed
+2016-04-18 17:22:04 INFO  ReadPropertiesConfig:22 - log_path aaaaaaaaaaaaa
+2016-04-18 17:22:04 INFO  ReadPropertiesConfig:22 - section key no dot
+2016-04-18 17:22:04 ERROR ReadPropertiesConfig:32 - log_path
+2016-04-18 17:22:04 INFO  IOTCore:22 - for testing purpose
+2016-04-18 17:22:04 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa
+2016-04-18 17:22:04 ERROR ReadPropertiesConfig:37 - java.io.IOException: Stream Closed
+2016-04-18 17:22:04 INFO  IOTCore:22 - null @@@@@@@@@@@@@@@@@@@@@@@@
+2016-04-18 17:22:04 INFO  MQTTSubscribe:22 - MQTTSubscribe start ...
+2016-04-18 17:22:04 INFO  KhttpClient:22 - KhttpClient start ...
+2016-04-18 17:23:35 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa
+2016-04-18 17:23:35 ERROR ReadPropertiesConfig:37 - java.io.IOException: Stream Closed
+2016-04-18 17:23:35 INFO  ReadPropertiesConfig:22 - mqtt.broker_port aaaaaaaaaaaaa
+2016-04-18 17:23:36 ERROR ReadPropertiesConfig:37 - java.io.IOException: Stream Closed
+2016-04-18 17:23:36 INFO  ReadPropertiesConfig:22 - log_path aaaaaaaaaaaaa
+2016-04-18 17:23:36 INFO  ReadPropertiesConfig:22 - section key no dot
+2016-04-18 17:23:36 ERROR ReadPropertiesConfig:32 - log_path
+2016-04-18 17:23:36 INFO  IOTCore:22 - for testing purpose
+2016-04-18 17:23:36 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa
+2016-04-18 17:23:36 ERROR ReadPropertiesConfig:37 - java.io.IOException: Stream Closed
+2016-04-18 17:23:36 INFO  IOTCore:22 - null @@@@@@@@@@@@@@@@@@@@@@@@
+2016-04-18 17:23:36 INFO  MQTTSubscribe:22 - MQTTSubscribe start ...
+2016-04-18 17:23:36 INFO  KhttpClient:22 - KhttpClient start ...
+2016-04-18 17:26:20 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa
+2016-04-18 17:26:20 ERROR ReadPropertiesConfig:37 - java.io.IOException: Stream Closed
+2016-04-18 17:26:20 INFO  ReadPropertiesConfig:22 - mqtt.broker_port aaaaaaaaaaaaa
+2016-04-18 17:26:20 ERROR ReadPropertiesConfig:37 - java.io.IOException: Stream Closed
+2016-04-18 17:26:21 INFO  ReadPropertiesConfig:22 - log_path aaaaaaaaaaaaa
+2016-04-18 17:33:55 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa
+2016-04-18 17:33:55 ERROR ReadPropertiesConfig:37 - java.io.IOException: Stream Closed
+2016-04-18 17:33:55 INFO  ReadPropertiesConfig:22 - mqtt.broker_port aaaaaaaaaaaaa
+2016-04-18 17:33:55 ERROR ReadPropertiesConfig:37 - java.io.IOException: Stream Closed
+2016-04-18 17:33:55 INFO  ReadPropertiesConfig:22 - log_path aaaaaaaaaaaaa
+2016-04-18 17:33:55 INFO  ReadPropertiesConfig:22 - section key no dot
+2016-04-18 17:33:55 ERROR ReadPropertiesConfig:32 - log_path
+2016-04-18 17:33:55 INFO  IOTCore:22 - for testing purpose
+2016-04-18 17:33:55 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa
+2016-04-18 17:33:55 ERROR ReadPropertiesConfig:37 - java.io.IOException: Stream Closed
+2016-04-18 17:33:55 INFO  IOTCore:22 - null @@@@@@@@@@@@@@@@@@@@@@@@
+2016-04-18 17:33:55 INFO  MQTTSubscribe:22 - MQTTSubscribe start ...
+2016-04-18 17:33:55 INFO  KhttpClient:22 - KhttpClient start ...
+2016-04-18 17:35:08 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa
+2016-04-18 17:35:08 ERROR ReadPropertiesConfig:37 - java.io.IOException: Stream Closed
+2016-04-18 17:35:08 INFO  ReadPropertiesConfig:22 - mqtt.broker_port aaaaaaaaaaaaa
+2016-04-18 17:35:08 ERROR ReadPropertiesConfig:37 - java.io.IOException: Stream Closed
+2016-04-18 17:35:09 INFO  ReadPropertiesConfig:22 - log_path aaaaaaaaaaaaa
+2016-04-18 17:35:09 INFO  ReadPropertiesConfig:22 - section key no dot
+2016-04-18 17:35:09 ERROR ReadPropertiesConfig:32 - log_path
+2016-04-18 17:35:09 INFO  IOTCore:22 - for testing purpose
+2016-04-18 17:35:09 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa
+2016-04-18 17:35:09 ERROR ReadPropertiesConfig:37 - java.io.IOException: Stream Closed
+2016-04-18 17:35:09 INFO  IOTCore:22 - null @@@@@@@@@@@@@@@@@@@@@@@@
+2016-04-18 17:35:09 INFO  MQTTSubscribe:22 - MQTTSubscribe start ...
+2016-04-18 17:35:09 INFO  KhttpClient:22 - KhttpClient start ...
+2016-04-18 17:36:09 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa
+2016-04-18 17:36:09 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa4
+2016-04-18 17:36:09 ERROR ReadPropertiesConfig:37 - java.io.IOException: Stream Closed
+2016-04-18 17:36:09 INFO  ReadPropertiesConfig:22 - mqtt.broker_port aaaaaaaaaaaaa
+2016-04-18 17:36:09 INFO  ReadPropertiesConfig:22 - mqtt.broker_port aaaaaaaaaaaaa4
+2016-04-18 17:36:09 ERROR ReadPropertiesConfig:37 - java.io.IOException: Stream Closed
+2016-04-18 17:36:09 INFO  ReadPropertiesConfig:22 - log_path aaaaaaaaaaaaa
+2016-04-18 17:36:09 INFO  ReadPropertiesConfig:22 - log_path aaaaaaaaaaaaa-1
+2016-04-18 17:36:09 INFO  ReadPropertiesConfig:22 - section key no dot
+2016-04-18 17:36:09 ERROR ReadPropertiesConfig:32 - log_path
+2016-04-18 17:36:09 INFO  IOTCore:22 - for testing purpose
+2016-04-18 17:36:09 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa
+2016-04-18 17:36:09 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa4
+2016-04-18 17:36:09 ERROR ReadPropertiesConfig:37 - java.io.IOException: Stream Closed
+2016-04-18 17:36:09 INFO  IOTCore:22 - null @@@@@@@@@@@@@@@@@@@@@@@@
+2016-04-18 17:36:09 INFO  MQTTSubscribe:22 - MQTTSubscribe start ...
+2016-04-18 17:36:09 INFO  KhttpClient:22 - KhttpClient start ...
+2016-04-18 17:38:00 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa
+2016-04-18 17:38:00 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa4
+2016-04-18 17:38:00 INFO  ReadPropertiesConfig:22 - section key got dot
+2016-04-18 17:40:57 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa
+2016-04-18 17:40:57 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa4
+2016-04-18 17:40:57 INFO  ReadPropertiesConfig:22 - section key got dot
+2016-04-18 17:41:29 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa
+2016-04-18 17:41:29 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa4
+2016-04-18 17:41:29 INFO  ReadPropertiesConfig:22 - section key got dot
+2016-04-18 17:44:19 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa
+2016-04-18 17:44:19 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa4
+2016-04-18 17:44:20 INFO  ReadPropertiesConfig:22 - section key got dot
+2016-04-18 17:44:20 ERROR ReadPropertiesConfig:32 - mqtt            broker_addr
+2016-04-18 17:44:20 ERROR ReadPropertiesConfig:32 - mqtt.broker_addr cannot find in config file
+2016-04-18 17:44:20 INFO  ReadPropertiesConfig:22 - mqtt.broker_port aaaaaaaaaaaaa
+2016-04-18 17:44:20 INFO  ReadPropertiesConfig:22 - mqtt.broker_port aaaaaaaaaaaaa4
+2016-04-18 17:44:20 ERROR ReadPropertiesConfig:37 - java.io.IOException: Stream Closed
+2016-04-18 17:44:20 INFO  ReadPropertiesConfig:22 - log_path aaaaaaaaaaaaa
+2016-04-18 17:44:20 INFO  ReadPropertiesConfig:22 - log_path aaaaaaaaaaaaa-1
+2016-04-18 17:44:20 INFO  ReadPropertiesConfig:22 - section key no dot
+2016-04-18 17:44:20 ERROR ReadPropertiesConfig:32 - log_path
+2016-04-18 17:44:20 INFO  IOTCore:22 - for testing purpose
+2016-04-18 17:44:20 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa
+2016-04-18 17:44:20 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa4
+2016-04-18 17:44:20 ERROR ReadPropertiesConfig:37 - java.io.IOException: Stream Closed
+2016-04-18 17:44:20 INFO  IOTCore:22 - null @@@@@@@@@@@@@@@@@@@@@@@@
+2016-04-18 17:44:20 INFO  MQTTSubscribe:22 - MQTTSubscribe start ...
+2016-04-18 17:44:20 INFO  KhttpClient:22 - KhttpClient start ...
+2016-04-18 17:50:43 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa
+2016-04-18 17:50:43 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa4
+2016-04-18 17:50:43 INFO  ReadPropertiesConfig:22 - section key got dot
+2016-04-18 17:50:43 ERROR ReadPropertiesConfig:32 - mqtt            broker_addr
+2016-04-18 17:50:43 ERROR ReadPropertiesConfig:32 - mqtt.broker_addr cannot find in config file
+2016-04-18 17:50:43 INFO  ReadPropertiesConfig:22 - mqtt.broker_port aaaaaaaaaaaaa
+2016-04-18 17:50:43 INFO  ReadPropertiesConfig:22 - mqtt.broker_port aaaaaaaaaaaaa4
+2016-04-18 17:50:43 INFO  ReadPropertiesConfig:22 - section key got dot
+2016-04-18 17:50:43 ERROR ReadPropertiesConfig:32 - mqtt            broker_port
+2016-04-18 17:50:43 ERROR ReadPropertiesConfig:32 - mqtt.broker_port cannot find in config file
+2016-04-18 17:50:43 INFO  ReadPropertiesConfig:22 - log_path aaaaaaaaaaaaa
+2016-04-18 17:50:43 INFO  ReadPropertiesConfig:22 - log_path aaaaaaaaaaaaa-1
+2016-04-18 17:50:43 INFO  ReadPropertiesConfig:22 - section key no dot
+2016-04-18 17:50:43 ERROR ReadPropertiesConfig:32 - log_path
+2016-04-18 17:50:43 INFO  IOTCore:22 - for testing purpose
+2016-04-18 17:50:43 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa
+2016-04-18 17:50:43 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa4
+2016-04-18 17:50:43 INFO  ReadPropertiesConfig:22 - section key got dot
+2016-04-18 17:50:43 ERROR ReadPropertiesConfig:32 - mqtt            broker_addr
+2016-04-18 17:50:43 ERROR ReadPropertiesConfig:32 - mqtt.broker_addr cannot find in config file
+2016-04-18 17:50:43 INFO  IOTCore:22 - null @@@@@@@@@@@@@@@@@@@@@@@@
+2016-04-18 17:50:43 INFO  MQTTSubscribe:22 - MQTTSubscribe start ...
+2016-04-18 17:50:43 INFO  KhttpClient:22 - KhttpClient start ...
+2016-04-18 17:54:35 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa
+2016-04-18 17:54:35 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa4
+2016-04-18 17:54:35 INFO  ReadPropertiesConfig:22 - section key got dot
+2016-04-18 17:54:35 ERROR ReadPropertiesConfig:32 - mqtt            broker_addr
+2016-04-18 17:54:35 ERROR ReadPropertiesConfig:32 - mqtt.broker_addr cannot find in config file
+2016-04-18 17:54:35 INFO  ReadPropertiesConfig:22 - mqtt.broker_port aaaaaaaaaaaaa
+2016-04-18 17:54:35 INFO  ReadPropertiesConfig:22 - mqtt.broker_port aaaaaaaaaaaaa4
+2016-04-18 17:54:35 INFO  ReadPropertiesConfig:22 - section key got dot
+2016-04-18 17:54:35 ERROR ReadPropertiesConfig:32 - mqtt            broker_port
+2016-04-18 17:54:35 ERROR ReadPropertiesConfig:32 - mqtt.broker_port cannot find in config file
+2016-04-18 17:54:36 INFO  ReadPropertiesConfig:22 - log_path aaaaaaaaaaaaa
+2016-04-18 17:54:36 INFO  ReadPropertiesConfig:22 - log_path aaaaaaaaaaaaa-1
+2016-04-18 17:54:36 INFO  ReadPropertiesConfig:22 - section key no dot
+2016-04-18 17:54:36 ERROR ReadPropertiesConfig:32 - log_path
+2016-04-18 17:54:36 INFO  IOTCore:22 - for testing purpose
+2016-04-18 17:54:36 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa
+2016-04-18 17:54:36 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa4
+2016-04-18 17:54:36 INFO  ReadPropertiesConfig:22 - section key got dot
+2016-04-18 17:54:36 ERROR ReadPropertiesConfig:32 - mqtt            broker_addr
+2016-04-18 17:54:36 ERROR ReadPropertiesConfig:32 - mqtt.broker_addr cannot find in config file
+2016-04-18 17:54:36 INFO  IOTCore:22 - null @@@@@@@@@@@@@@@@@@@@@@@@
+2016-04-18 17:54:36 INFO  MQTTSubscribe:22 - MQTTSubscribe start ...
+2016-04-18 17:54:36 INFO  KhttpClient:22 - KhttpClient start ...
+2016-04-18 17:56:07 ERROR ReadPropertiesConfig:37 - org.ini4j.InvalidFileFormatException: parse error (at line: 13): log_level=INFO
+2016-04-18 17:56:07 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa
+2016-04-18 17:56:07 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa4
+2016-04-18 17:56:07 INFO  ReadPropertiesConfig:22 - section key got dot
+2016-04-18 17:56:07 ERROR ReadPropertiesConfig:32 - mqtt            broker_addr
+2016-04-19 09:01:51 ERROR ReadPropertiesConfig:37 - org.ini4j.InvalidFileFormatException: parse error (at line: 13): log_level=INFO
+2016-04-19 09:01:51 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa
+2016-04-19 09:01:51 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa4
+2016-04-19 09:01:51 INFO  ReadPropertiesConfig:22 - section key got dot
+2016-04-19 09:01:51 ERROR ReadPropertiesConfig:32 - mqtt            broker_addr
+2016-04-19 09:04:30 ERROR ReadPropertiesConfig:37 - org.ini4j.InvalidFileFormatException: parse error (at line: 13): log_level=INFO
+2016-04-19 09:04:30 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa
+2016-04-19 09:04:30 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa4
+2016-04-19 09:04:30 INFO  ReadPropertiesConfig:22 - section key got dot
+2016-04-19 09:04:30 ERROR ReadPropertiesConfig:32 - mqtt            broker_addr
+2016-04-19 09:09:01 ERROR ReadPropertiesConfig:37 - org.ini4j.InvalidFileFormatException: parse error (at line: 13): log_level=INFO
+2016-04-19 09:09:01 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa
+2016-04-19 09:09:01 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa4
+2016-04-19 09:09:01 INFO  ReadPropertiesConfig:22 - section key got dot
+2016-04-19 09:09:01 ERROR ReadPropertiesConfig:32 - mqtt            broker_addr
+2016-04-19 09:10:53 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa
+2016-04-19 09:10:53 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa4
+2016-04-19 09:10:53 INFO  ReadPropertiesConfig:22 - section key got dot
+2016-04-19 09:10:53 ERROR ReadPropertiesConfig:32 - mqtt            broker_addr
+2016-04-19 09:11:55 ERROR ReadPropertiesConfig:37 - org.ini4j.InvalidFileFormatException: parse error (at line: 13): log_level=INFO
+2016-04-19 09:11:55 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa
+2016-04-19 09:11:55 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa4
+2016-04-19 09:11:55 INFO  ReadPropertiesConfig:22 - section key got dot
+2016-04-19 09:11:55 ERROR ReadPropertiesConfig:32 - mqtt            broker_addr
+2016-04-19 09:12:39 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa
+2016-04-19 09:12:39 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa4
+2016-04-19 09:12:39 INFO  ReadPropertiesConfig:22 - section key got dot
+2016-04-19 09:12:39 ERROR ReadPropertiesConfig:32 - mqtt            broker_addr
+2016-04-19 09:12:39 INFO  ReadPropertiesConfig:22 - mqtt.broker_port aaaaaaaaaaaaa
+2016-04-19 09:12:39 INFO  ReadPropertiesConfig:22 - mqtt.broker_port aaaaaaaaaaaaa4
+2016-04-19 09:12:39 INFO  ReadPropertiesConfig:22 - section key got dot
+2016-04-19 09:12:39 ERROR ReadPropertiesConfig:32 - mqtt            broker_port
+2016-04-19 09:12:40 INFO  ReadPropertiesConfig:22 - log_path aaaaaaaaaaaaa
+2016-04-19 09:12:40 INFO  ReadPropertiesConfig:22 - log_path aaaaaaaaaaaaa-1
+2016-04-19 09:12:40 INFO  ReadPropertiesConfig:22 - section key no dot
+2016-04-19 09:12:40 ERROR ReadPropertiesConfig:32 - log_path
+2016-04-19 09:12:40 INFO  IOTCore:22 - for testing purpose
+2016-04-19 09:12:40 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa
+2016-04-19 09:12:40 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa4
+2016-04-19 09:12:40 INFO  ReadPropertiesConfig:22 - section key got dot
+2016-04-19 09:12:40 ERROR ReadPropertiesConfig:32 - mqtt            broker_addr
+2016-04-19 09:12:40 INFO  IOTCore:22 - test.mosquitto.org @@@@@@@@@@@@@@@@@@@@@@@@
+2016-04-19 09:12:40 INFO  MQTTSubscribe:22 - MQTTSubscribe start ...
+2016-04-19 09:12:40 INFO  KhttpClient:22 - KhttpClient start ...
+2016-04-19 09:12:41 INFO  MQTTSubscribe:22 - MQTTSubscribe start ...
+2016-04-19 09:12:41 INFO  KhttpClient:22 - KhttpClient start ...
+2016-04-19 09:12:41 INFO  IOTCore:22 - registerSubscriber - Successful connected mqtt broker ...
+2016-04-19 09:12:41 INFO  IOTCore:22 - createMQTTPublisher - Successful connected mqtt broker ...
+2016-04-19 09:12:41 INFO  MQTTPublish:22 - mqttPublish start ...
+2016-04-19 09:12:41 INFO  class SampleTestIOTCore:22 - successful connected ....
+2016-04-19 09:12:41 INFO  class SampleTestIOTCore:22 - data published
+2016-04-19 09:12:42 INFO  class SampleTestIOTCore:22 - system subscribe
+2016-04-19 09:12:42 INFO  class SampleTestIOTCore:22 - start http server
+2016-04-19 09:12:42 INFO  KhttpServer:22 - server started at 1111
+2016-04-19 09:12:42 INFO  class SampleTestIOTCore:22 - idle http server
+2016-04-19 09:12:42 INFO  class SampleTestIOTCore:22 - idle http req post to server
+2016-04-19 09:12:42 INFO  IOTCore:22 - [Main thread] Shutdown hook added
+2016-04-19 09:12:42 DEBUG Handlers$RootHandler:27 - HTTP
+2016-04-19 09:12:42 DEBUG Handlers$RootHandler:27 - GET
+2016-04-19 09:12:42 INFO  Handlers$RootHandler:22 - GET request uri null/v70/device_id
+2016-04-19 09:12:42 INFO  KhttpClient:22 - http://localhost:1111/v70/device_id/v70/device_id200
+2016-04-19 09:12:46 INFO  ShutdownThread:22 - [Shutdown thread] Shutting down
+2016-04-19 09:12:46 INFO  KhttpServer:22 - server stopped
+2016-04-19 09:12:46 INFO  ShutdownThread:22 - [Shutdown thread] Shutdown complete
+2016-04-19 09:27:14 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa
+2016-04-19 09:27:14 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa4
+2016-04-19 09:27:14 INFO  ReadPropertiesConfig:22 - section key got dot
+2016-04-19 09:27:14 ERROR ReadPropertiesConfig:32 - mqtt            broker_addr
+2016-04-19 09:27:14 INFO  ReadPropertiesConfig:22 - mqtt.broker_port aaaaaaaaaaaaa
+2016-04-19 09:27:14 INFO  ReadPropertiesConfig:22 - mqtt.broker_port aaaaaaaaaaaaa4
+2016-04-19 09:27:14 INFO  ReadPropertiesConfig:22 - section key got dot
+2016-04-19 09:27:14 ERROR ReadPropertiesConfig:32 - mqtt            broker_port
+2016-04-19 09:27:14 INFO  ReadPropertiesConfig:22 - log_path aaaaaaaaaaaaa
+2016-04-19 09:27:14 INFO  ReadPropertiesConfig:22 - log_path aaaaaaaaaaaaa-1
+2016-04-19 09:27:14 INFO  ReadPropertiesConfig:22 - section key no dot
+2016-04-19 09:27:14 ERROR ReadPropertiesConfig:32 - log_path
+2016-04-19 09:27:14 INFO  IOTCore:22 - for testing purpose
+2016-04-19 09:27:14 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa
+2016-04-19 09:27:14 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa4
+2016-04-19 09:27:14 INFO  ReadPropertiesConfig:22 - section key got dot
+2016-04-19 09:27:14 ERROR ReadPropertiesConfig:32 - mqtt            broker_addr
+2016-04-19 09:27:14 INFO  IOTCore:22 - test.mosquitto.org @@@@@@@@@@@@@@@@@@@@@@@@
+2016-04-19 09:27:14 INFO  MQTTSubscribe:22 - MQTTSubscribe start ...
+2016-04-19 09:27:14 INFO  KhttpClient:22 - KhttpClient start ...
+2016-04-19 09:27:15 INFO  MQTTSubscribe:22 - MQTTSubscribe start ...
+2016-04-19 09:27:15 INFO  KhttpClient:22 - KhttpClient start ...
+2016-04-19 09:27:15 INFO  IOTCore:22 - registerSubscriber - Successful connected mqtt broker ...
+2016-04-19 09:27:15 INFO  IOTCore:22 - createMQTTPublisher - Successful connected mqtt broker ...
+2016-04-19 09:27:15 INFO  MQTTPublish:22 - mqttPublish start ...
+2016-04-19 09:27:15 INFO  class SampleTestIOTCore:22 - successful connected ....
+2016-04-19 09:27:15 INFO  class SampleTestIOTCore:22 - data published
+2016-04-19 09:27:15 INFO  class SampleTestIOTCore:22 - system subscribe
+2016-04-19 09:27:15 INFO  class SampleTestIOTCore:22 - start http server
+2016-04-19 09:27:15 INFO  KhttpServer:22 - server started at 1111
+2016-04-19 09:27:15 INFO  class SampleTestIOTCore:22 - idle http server
+2016-04-19 09:27:15 INFO  class SampleTestIOTCore:22 - idle http req post to server
+2016-04-19 09:27:15 INFO  IOTCore:22 - [Main thread] Shutdown hook added
+2016-04-19 09:27:15 DEBUG Handlers$RootHandler:27 - HTTP
+2016-04-19 09:27:15 DEBUG Handlers$RootHandler:27 - GET
+2016-04-19 09:27:15 INFO  Handlers$RootHandler:22 - GET request uri null/v70/device_id
+2016-04-19 09:27:15 INFO  KhttpClient:22 - http://localhost:1111/v70/device_id/v70/device_id200
+2016-04-19 09:27:16 INFO  class AgentSubscribe:22 - -------------------------------------------------
+2016-04-19 09:27:16 INFO  class AgentSubscribe:22 - | Protocol:MQTT
+2016-04-19 09:27:16 INFO  class AgentSubscribe:22 - | Topic:topic/test
+2016-04-19 09:27:16 INFO  class AgentSubscribe:22 - | Message: 2201
+2016-04-19 09:27:16 INFO  class AgentSubscribe:22 - -------------------------------------------------
+2016-04-19 09:27:16 INFO  MQTTSubscribe:22 - MQTTSubscribe - messageArrived
+2016-04-19 09:27:32 INFO  ShutdownThread:22 - [Shutdown thread] Shutting down
+2016-04-19 09:27:32 INFO  KhttpServer:22 - server stopped
+2016-04-19 09:27:32 INFO  ShutdownThread:22 - [Shutdown thread] Shutdown complete
+2016-04-19 09:27:42 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa
+2016-04-19 09:27:42 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa4
+2016-04-19 09:27:42 INFO  ReadPropertiesConfig:22 - section key got dot
+2016-04-19 09:27:42 ERROR ReadPropertiesConfig:32 - mqtt            broker_addr
+2016-04-19 09:27:42 INFO  ReadPropertiesConfig:22 - mqtt.broker_port aaaaaaaaaaaaa
+2016-04-19 09:27:42 INFO  ReadPropertiesConfig:22 - mqtt.broker_port aaaaaaaaaaaaa4
+2016-04-19 09:27:42 INFO  ReadPropertiesConfig:22 - section key got dot
+2016-04-19 09:27:42 ERROR ReadPropertiesConfig:32 - mqtt            broker_port
+2016-04-19 09:27:42 INFO  ReadPropertiesConfig:22 - log_path aaaaaaaaaaaaa
+2016-04-19 09:27:42 INFO  ReadPropertiesConfig:22 - log_path aaaaaaaaaaaaa-1
+2016-04-19 09:27:42 INFO  ReadPropertiesConfig:22 - section key no dot
+2016-04-19 09:27:42 ERROR ReadPropertiesConfig:32 - log_path
+2016-04-19 09:27:42 INFO  IOTCore:22 - for testing purpose
+2016-04-19 09:27:42 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa
+2016-04-19 09:27:42 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa4
+2016-04-19 09:27:42 INFO  ReadPropertiesConfig:22 - section key got dot
+2016-04-19 09:27:42 ERROR ReadPropertiesConfig:32 - mqtt            broker_addr
+2016-04-19 09:27:42 INFO  IOTCore:22 - test.mosquitto.org @@@@@@@@@@@@@@@@@@@@@@@@
+2016-04-19 09:27:42 INFO  MQTTSubscribe:22 - MQTTSubscribe start ...
+2016-04-19 09:27:42 INFO  KhttpClient:22 - KhttpClient start ...
+2016-04-19 09:27:43 INFO  MQTTSubscribe:22 - MQTTSubscribe start ...
+2016-04-19 09:27:43 INFO  KhttpClient:22 - KhttpClient start ...
+2016-04-19 09:27:43 INFO  IOTCore:22 - registerSubscriber - Successful connected mqtt broker ...
+2016-04-19 09:27:43 INFO  IOTCore:22 - createMQTTPublisher - Successful connected mqtt broker ...
+2016-04-19 09:27:43 INFO  MQTTPublish:22 - mqttPublish start ...
+2016-04-19 09:27:43 INFO  class SampleTestIOTCore:22 - successful connected ....
+2016-04-19 09:27:43 INFO  class SampleTestIOTCore:22 - data published
+2016-04-19 09:27:43 INFO  class SampleTestIOTCore:22 - system subscribe
+2016-04-19 09:27:43 INFO  class SampleTestIOTCore:22 - start http server
+2016-04-19 09:27:44 INFO  KhttpServer:22 - server started at 1111
+2016-04-19 09:27:44 INFO  class SampleTestIOTCore:22 - idle http server
+2016-04-19 09:27:44 INFO  class SampleTestIOTCore:22 - idle http req post to server
+2016-04-19 09:27:44 INFO  IOTCore:22 - [Main thread] Shutdown hook added
+2016-04-19 09:27:44 DEBUG Handlers$RootHandler:27 - HTTP
+2016-04-19 09:27:44 DEBUG Handlers$RootHandler:27 - GET
+2016-04-19 09:27:44 INFO  Handlers$RootHandler:22 - GET request uri null/v70/device_id
+2016-04-19 09:27:44 INFO  KhttpClient:22 - http://localhost:1111/v70/device_id/v70/device_id200
+2016-04-19 09:27:44 INFO  class AgentSubscribe:22 - -------------------------------------------------
+2016-04-19 09:27:44 INFO  class AgentSubscribe:22 - | Protocol:MQTT
+2016-04-19 09:27:44 INFO  class AgentSubscribe:22 - | Topic:topic/test
+2016-04-19 09:27:44 INFO  class AgentSubscribe:22 - | Message: 2201
+2016-04-19 09:27:44 INFO  class AgentSubscribe:22 - -------------------------------------------------
+2016-04-19 09:27:44 INFO  MQTTSubscribe:22 - MQTTSubscribe - messageArrived
+2016-04-19 09:28:02 INFO  ShutdownThread:22 - [Shutdown thread] Shutting down
+2016-04-19 09:28:02 INFO  KhttpServer:22 - server stopped
+2016-04-19 09:28:02 INFO  ShutdownThread:22 - [Shutdown thread] Shutdown complete
+2016-04-19 09:28:04 ERROR ReadPropertiesConfig:37 - org.ini4j.InvalidFileFormatException: parse error (at line: 13): log_level=INFO
+2016-04-19 09:28:04 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa
+2016-04-19 09:28:04 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa4
+2016-04-19 09:28:04 INFO  ReadPropertiesConfig:22 - section key got dot
+2016-04-19 09:28:04 ERROR ReadPropertiesConfig:32 - mqtt            broker_addr
+2016-04-19 09:28:22 ERROR ReadPropertiesConfig:37 - org.ini4j.InvalidFileFormatException: parse error (at line: 13): log_level=INFO
+2016-04-19 09:28:23 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa
+2016-04-19 09:28:23 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa4
+2016-04-19 09:28:23 INFO  ReadPropertiesConfig:22 - section key got dot
+2016-04-19 09:28:23 ERROR ReadPropertiesConfig:32 - mqtt            broker_addr
+2016-04-19 09:33:00 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa
+2016-04-19 09:33:00 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa4
+2016-04-19 09:33:00 INFO  ReadPropertiesConfig:22 - section key got dot
+2016-04-19 09:33:00 ERROR ReadPropertiesConfig:32 - mqtt            broker_addr
+2016-04-19 09:33:00 ERROR ReadPropertiesConfig:32 - mqtt.broker_addr cannot find in config file
+2016-04-19 09:33:00 INFO  ReadPropertiesConfig:22 - mqtt.broker_port aaaaaaaaaaaaa
+2016-04-19 09:33:00 INFO  ReadPropertiesConfig:22 - mqtt.broker_port aaaaaaaaaaaaa4
+2016-04-19 09:33:00 INFO  ReadPropertiesConfig:22 - section key got dot
+2016-04-19 09:33:00 ERROR ReadPropertiesConfig:32 - mqtt            broker_port
+2016-04-19 09:33:00 ERROR ReadPropertiesConfig:32 - mqtt.broker_port cannot find in config file
+2016-04-19 09:33:00 INFO  ReadPropertiesConfig:22 - log_path aaaaaaaaaaaaa
+2016-04-19 09:33:00 INFO  ReadPropertiesConfig:22 - log_path aaaaaaaaaaaaa-1
+2016-04-19 09:33:00 INFO  ReadPropertiesConfig:22 - section key no dot
+2016-04-19 09:33:00 ERROR ReadPropertiesConfig:32 - log_path
+2016-04-19 09:33:00 INFO  IOTCore:22 - for testing purpose
+2016-04-19 09:33:00 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa
+2016-04-19 09:33:00 INFO  ReadPropertiesConfig:22 - mqtt.broker_addr aaaaaaaaaaaaa4
+2016-04-19 09:33:00 INFO  ReadPropertiesConfig:22 - section key got dot
+2016-04-19 09:33:00 ERROR ReadPropertiesConfig:32 - mqtt            broker_addr
+2016-04-19 09:33:00 ERROR ReadPropertiesConfig:32 - mqtt.broker_addr cannot find in config file
+2016-04-19 09:33:00 INFO  IOTCore:22 - null @@@@@@@@@@@@@@@@@@@@@@@@
+2016-04-19 09:33:00 INFO  MQTTSubscribe:22 - MQTTSubscribe start ...
+2016-04-19 09:33:00 INFO  KhttpClient:22 - KhttpClient start ...

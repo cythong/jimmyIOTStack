@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
+<jardesc>
+    <jar path="C:/Work/JavaIOTCore/ALL_JAR_FILES/lib/IOTCore.jar"/>
+    <options buildIfNeeded="true" compress="false" descriptionLocation="/IOTCore/jar_only.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="true" overwrite="true" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="true" manifestLocation="/IOTCore/bin/Manifest.txt" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
+        <sealing sealJar="true">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="true" exportJavaFiles="true" exportOutputFolder="false">
+        <javaElement handleIdentifier="=IOTCore/src"/>
+        <folder path="/IOTCore/lib"/>
+        <file path="/IOTCore/.classpath"/>
+        <file path="/IOTCore/.project"/>
+    </selectedElements>
+</jardesc>
