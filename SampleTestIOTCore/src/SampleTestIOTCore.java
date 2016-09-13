@@ -1,7 +1,7 @@
 //import org.apache.log4j.Logger;
 //import org.apache.log4j.PropertyConfigurator;
 
-import com.kontron.IOTCore.*;
+import com.jimmy.IOTCore.*;
 
 class AgentSubscribe implements ISubscriber{
 
